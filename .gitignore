@@ -1,0 +1,67 @@
+# Build files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# Logs
+*.log
+
+# IDE-specific files
+.vscode/
+.vs/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Entity Framework Migrations
+*.Designer.cs
+Migrations/
+
+# Runtime files
+*.dll
+*.exe
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Sensitive configuration files (e.g., User Secrets)
+**/appsettings.*.json
+
+# Ignore any secrets or local development configuration files
+secrets.json
+
+# Generated files
+Generated/
+wwwroot/
+
+# Docker files
+docker-compose.override.yml
+.dockerignore
+.env
+.env.*
+
+# Packages
+**/packages/
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# Rider IDE files
+.idea/
+
+# Resharper
+_ReSharper*/
