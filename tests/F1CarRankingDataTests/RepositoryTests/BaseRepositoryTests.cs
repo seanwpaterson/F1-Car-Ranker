@@ -1,6 +1,6 @@
 using F1CarRankingCore.Models;
 using F1CarRankingData.Contexts;
-using F1CarRankingData.Repositories;
+using F1CarRankingData.Repositories.Base;
 using Microsoft.EntityFrameworkCore;
 
 namespace F1CarRankingDataTests.RepositoryTests;

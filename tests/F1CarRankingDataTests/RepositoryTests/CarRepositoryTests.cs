@@ -1,6 +1,6 @@
 using F1CarRankingCore.Models;
 using F1CarRankingData.Contexts;
-using F1CarRankingData.Repositories;
+using F1CarRankingData.Repositories.Implementations;
 using Microsoft.EntityFrameworkCore;
 
 namespace F1CarRankingDataTests.RepositoryTests;
@@ -8,7 +8,7 @@ namespace F1CarRankingDataTests.RepositoryTests;
 public class CarRepositoryTests : IDisposable
 {
     private readonly AppDbContext _context;
-    private readonly BaseRepository<Car> _carRepository;
+    private readonly CarRepository _carRepository;
 
     public CarRepositoryTests()
     {
@@ -26,7 +26,7 @@ public class CarRepositoryTests : IDisposable
         });
         _context.SaveChanges();
 
-        _carRepository = new BaseRepository<Car>(_context);
+        _carRepository = new CarRepository(_context);
     }
 
     // Dispose method to clean up resources after tests
