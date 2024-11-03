@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace F1CarRankingData.Repositories;
+namespace F1CarRankingData.Repositories.Base;
 
 public interface IBaseRepository<T> where T : class
 {

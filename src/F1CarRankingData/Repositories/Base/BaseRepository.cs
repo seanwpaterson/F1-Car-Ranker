@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using F1CarRankingData.Contexts;
 using Microsoft.EntityFrameworkCore;
 
-namespace F1CarRankingData.Repositories
+namespace F1CarRankingData.Repositories.Base
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
