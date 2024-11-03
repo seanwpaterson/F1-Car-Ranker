@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace F1CarRankingData.Repositories
 {
-    public class Repository<T> : IRepository<T> where T : class
+    public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         protected readonly AppDbContext _context;
 
-        public Repository(AppDbContext context)
+        public BaseRepository(AppDbContext context)
         {
             _context = context;
         }
@@ -37,7 +37,7 @@ namespace F1CarRankingData.Repositories
             await _context.Set<T>().AddAsync(entity);
         }
 
-        public async Task AddRange(IEnumerable<T> entities)
+        public async Task AddRangeAsync(IEnumerable<T> entities)
         {
             await _context.Set<T>().AddRangeAsync(entities);
         }
