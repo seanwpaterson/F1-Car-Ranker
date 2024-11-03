@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B26891C6-9CA0-4509-9580-31C0A35D7A01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingDataTests", "tests\F1CarRankingDataTests\F1CarRankingDataTests.csproj", "{001D243D-1CF7-4AFB-8624-47882A08A605}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C257B6AD-96DA-4D5A-A417-90F95AE6726E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingData", "src\F1CarRankingData\F1CarRankingData.csproj", "{89ABCBD8-A6FB-4A65-AEB1-4286E6191091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingAPI", "src\F1CarRankingAPI\F1CarRankingAPI.csproj", "{9BC2CB18-BDCB-44E3-9A0D-F13F4A02A273}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingShared", "src\F1CarRankingShared\F1CarRankingShared.csproj", "{B33E3F97-8F32-42E0-A8C8-21122C5EDEC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingCore", "src\F1CarRankingCore\F1CarRankingCore.csproj", "{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{001D243D-1CF7-4AFB-8624-47882A08A605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001D243D-1CF7-4AFB-8624-47882A08A605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001D243D-1CF7-4AFB-8624-47882A08A605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001D243D-1CF7-4AFB-8624-47882A08A605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89ABCBD8-A6FB-4A65-AEB1-4286E6191091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89ABCBD8-A6FB-4A65-AEB1-4286E6191091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89ABCBD8-A6FB-4A65-AEB1-4286E6191091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89ABCBD8-A6FB-4A65-AEB1-4286E6191091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC2CB18-BDCB-44E3-9A0D-F13F4A02A273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC2CB18-BDCB-44E3-9A0D-F13F4A02A273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC2CB18-BDCB-44E3-9A0D-F13F4A02A273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC2CB18-BDCB-44E3-9A0D-F13F4A02A273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33E3F97-8F32-42E0-A8C8-21122C5EDEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33E3F97-8F32-42E0-A8C8-21122C5EDEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33E3F97-8F32-42E0-A8C8-21122C5EDEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33E3F97-8F32-42E0-A8C8-21122C5EDEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{001D243D-1CF7-4AFB-8624-47882A08A605} = {B26891C6-9CA0-4509-9580-31C0A35D7A01}
+		{89ABCBD8-A6FB-4A65-AEB1-4286E6191091} = {C257B6AD-96DA-4D5A-A417-90F95AE6726E}
+		{9BC2CB18-BDCB-44E3-9A0D-F13F4A02A273} = {C257B6AD-96DA-4D5A-A417-90F95AE6726E}
+		{B33E3F97-8F32-42E0-A8C8-21122C5EDEC0} = {C257B6AD-96DA-4D5A-A417-90F95AE6726E}
+		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8} = {C257B6AD-96DA-4D5A-A417-90F95AE6726E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D5AAEB1-BAA5-47D7-A98A-5C22516FBCC8}
+	EndGlobalSection
+EndGlobal

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace F1CarRankingCore.Models;
+namespace F1CarRankingShared.Entities;
 
 public class Comparison
 {

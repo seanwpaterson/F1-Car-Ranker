@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using F1CarRankingCore.Models;
 using F1CarRankingData.Configurations;
+using F1CarRankingShared.Entities;
 
 namespace F1CarRankingData.Contexts
 {

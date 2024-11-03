@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\F1CarRankingData\F1CarRankingData.csproj" />
+    <ProjectReference Include="..\F1CarRankingShared\F1CarRankingShared.csproj" />
+  </ItemGroup>
 </Project>

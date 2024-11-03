@@ -1,4 +1,4 @@
-using F1CarRankingCore.Models;
+using F1CarRankingShared.Entities;
 using F1CarRankingData.Contexts;
 using F1CarRankingData.Repositories.Base;
 using F1CarRankingData.Repositories.Interfaces;

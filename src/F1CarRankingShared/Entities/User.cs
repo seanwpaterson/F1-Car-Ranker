@@ -1,4 +1,4 @@
-namespace F1CarRankingCore.Models;
+namespace F1CarRankingShared.Entities;
 
 public class User
 {

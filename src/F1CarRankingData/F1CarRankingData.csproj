@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\F1CarRankingCore\F1CarRankingCore.csproj" />
+    <ProjectReference Include="..\F1CarRankingShared\F1CarRankingShared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
