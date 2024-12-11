@@ -5,17 +5,7 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B26891C6-9CA0-4509-9580-31C0A35D7A01}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingDataTests", "tests\F1CarRankingDataTests\F1CarRankingDataTests.csproj", "{001D243D-1CF7-4AFB-8624-47882A08A605}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C257B6AD-96DA-4D5A-A417-90F95AE6726E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingData", "src\F1CarRankingData\F1CarRankingData.csproj", "{89ABCBD8-A6FB-4A65-AEB1-4286E6191091}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingAPI", "src\F1CarRankingAPI\F1CarRankingAPI.csproj", "{9BC2CB18-BDCB-44E3-9A0D-F13F4A02A273}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingShared", "src\F1CarRankingShared\F1CarRankingShared.csproj", "{B33E3F97-8F32-42E0-A8C8-21122C5EDEC0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1CarRankingCore", "src\F1CarRankingCore\F1CarRankingCore.csproj", "{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +33,10 @@ Global
 		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158E40CD-D44C-4AEF-BF77-CE7B91205EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158E40CD-D44C-4AEF-BF77-CE7B91205EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158E40CD-D44C-4AEF-BF77-CE7B91205EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158E40CD-D44C-4AEF-BF77-CE7B91205EEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +47,7 @@ Global
 		{9BC2CB18-BDCB-44E3-9A0D-F13F4A02A273} = {C257B6AD-96DA-4D5A-A417-90F95AE6726E}
 		{B33E3F97-8F32-42E0-A8C8-21122C5EDEC0} = {C257B6AD-96DA-4D5A-A417-90F95AE6726E}
 		{1661A7AD-2D6D-4674-A1A6-237529FE4FA8} = {C257B6AD-96DA-4D5A-A417-90F95AE6726E}
+		{158E40CD-D44C-4AEF-BF77-CE7B91205EEE} = {B26891C6-9CA0-4509-9580-31C0A35D7A01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D5AAEB1-BAA5-47D7-A98A-5C22516FBCC8}
